@@ -2,7 +2,7 @@
 
 ## Steps to run the code
 
-1. Download the Holopix50k dataset from [here](https://leiainc.github.io/holopix50k/)
+1. Download the Holopix50k dataset from [here](https://leiainc.github.io/holopix50k/) and place it in the dataset folder
 
 2. Create a virtual environment and install the requirements using the following commmands
     ```
