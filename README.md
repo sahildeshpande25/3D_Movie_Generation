@@ -12,6 +12,8 @@
     
 3. To train the model, run
     ```python3 train_stereo_pairs.py```
+    <br><br>If you have access to NYU Greene, you can run a batch job using the following command
+    <br>```sbatch train_stereo_pairs_sbatch.slurm```
 
 4. To generate a 3D video from a given 2D video, run
     <br>``` python3 2D_to_3D_movie_converter.py <path_to_video.mp4>```
