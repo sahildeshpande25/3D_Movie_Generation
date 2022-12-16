@@ -8,7 +8,8 @@
     ```
     python3 -m venv env
     source env/bin/activate
-    pip install -r requirements.txt```
+    pip install -r requirements.txt
+    ```
     
 3. To train the model, run
     ```python3 train_stereo_pairs.py```
