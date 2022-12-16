@@ -12,11 +12,9 @@
     
 3. To train the model, run
     ```python3 train_stereo_pairs.py```
-    
-4. Edit video_path in ```2D_to_3D_movie_converter.py```
 
-5. To generate a 3D video from a given 2D video, run
-    ``` python3 2D_to_3D_movie_converter.py```
+4. To generate a 3D video from a given 2D video, run
+    <br>``` python3 2D_to_3D_movie_converter.py <path_to_video.mp4>```
     
 
 <br><br>Use your 3D glasses and enjoy the movie!
