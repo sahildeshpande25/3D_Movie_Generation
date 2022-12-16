@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 import torch
@@ -50,7 +51,12 @@ def make_anaglyph(left, right):
     # left.save('3d.png')
     return left
 
-video_path =  'avatar_trailer{}.mp4'
+video_path =  sys.argv[1]
+video_path = list(os.path.splitext('video_path'))
+ext = video_path[-1]
+video_path[-1] = '{}'
+video_path.append(ext)
+video_path = ''.join(video_path)
 vidObj = cv2.VideoCapture(video_path.format(''))
 width = int(vidObj.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(vidObj.get(cv2.CAP_PROP_FRAME_HEIGHT))
